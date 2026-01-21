@@ -1,10 +1,18 @@
 {
-  "locales": ["en"],
+  "locales": [
+    {
+      "code": "en",
+      "name": "English",
+      "isDefault": true
+    }
+  ],
   "urls": {
     "home": "/",
     "search": "/search",
     "cart": "/cart",
     "checkout": "/checkout",
-    "contact": "/contact"
+    "contact": "/contact",
+    "vanityUrl": "/",
+    "checkoutUrl": "/checkout"
   }
 }
