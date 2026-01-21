@@ -1,1 +1,10 @@
-{}
+{
+  "locales": ["en"],
+  "urls": {
+    "home": "/",
+    "search": "/search",
+    "cart": "/cart",
+    "checkout": "/checkout",
+    "contact": "/contact"
+  }
+}
