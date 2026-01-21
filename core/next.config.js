@@ -1,4 +1,244 @@
-import createWithMakeswift from "@makeswift/runtime/next/plugin";
+const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);import createWithMakeswift from "@makeswift/runtime/next/plugin";
 
 const withMakeswift = createWithMakeswift();
 
@@ -74,3 +314,141 @@ const nextConfig = {
     ]
   },
 };
+const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);const createWithMakeswift = require("@makeswift/runtime/next/plugin");
+
+const withMakeswift = createWithMakeswift();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: 'https://app.makeswift.com' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, X-Makeswift-Preview-Mode' },
+        ],
+      },
+    ]
+  },
+};
+
+module.exports = withMakeswift(nextConfig);
